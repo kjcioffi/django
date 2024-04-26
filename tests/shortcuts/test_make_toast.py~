@@ -1,0 +1,7 @@
+from django.shortcuts import make_taost
+from django.test import SimpleTestCase
+
+class MakeToastTests(SimpleTestCase):
+    def test_make_taost(self):
+        self.assertEqual(make_toast(), "toast")
+
